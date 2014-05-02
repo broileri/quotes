@@ -4,7 +4,7 @@
 
 <div class="quote_box">		
 
-	<p>
+	<p class="quote_text">
 		<%= @quote.citation %>
 		<br><br>
 		<em>
@@ -16,9 +16,9 @@
 </div>
 <br><br>
 <div class="refresh_btn_div">
-	<%= button_to "Give me more wisdom.", root_path, :method => :get, class:"refresh_btn" %>
+	<%= button_to "Teach me, master.", root_path, :method => :get, class:"refresh_btn" %>
 </div>
-<div class="cat">
+<div class="cat" id="jscat" style="display:none;">
 	<% if @quote.citation == "Longcat is looooooooong!" %>
  		<img src="long.png" alt="cat">
  	<% end %>
