@@ -4,20 +4,10 @@
 	<title>Quotinator</title>
 	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
 	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-	<%= csrf_meta_tags %>
-
-	<style type="text/css">
-	  #js_cat{visibility: hidden;}
-	</style>
-
-	<script language="javascript">
-	  function showImage(divId){
-		document.getElementById(divId).style.visibility = "visible";
-	  }
-	</script>
+	<%= csrf_meta_tags %>	
 </head>
 
-<body class="page_background" onload="showImage('js_cat');">
+<body class="page_background">	
 	<%= yield %>    
 </body>
 

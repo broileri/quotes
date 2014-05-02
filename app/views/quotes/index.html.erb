@@ -11,14 +11,13 @@
 			&emsp;&emsp;- <%= @quote.author %>
 		</em>
 	</p>
-
 	
 </div>
 <br><br>
 <div class="refresh_btn_div">
 	<%= button_to "Teach me, master.", root_path, :method => :get, class:"refresh_btn" %>
 </div>
-<div class="cat" id="js_cat">
+<div class="cat">
 	<% if @quote.citation == "Longcat is looooooooong!" %>
  		<img src="long.png" alt="loooooong cat">
  	<% end %>

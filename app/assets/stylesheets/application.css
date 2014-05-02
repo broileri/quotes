@@ -25,11 +25,11 @@
  }
 
  .cat {
- 	-webkit-animation: cat-appear 2s;
- 	-moz-animation: cat-appear 2s;
- 	-o-animation: cat-appear 2s;
- 	-ms-animation: cat-appear 2s;
- 	animation: cat-appear 2s;
+ 	-webkit-animation: cat-appear 10s;
+ 	-moz-animation: cat-appear 10s;
+ 	-o-animation: cat-appear 10s;
+ 	-ms-animation: cat-appear 10s;
+ 	animation: cat-appear 10s;
  }
 
  .quote_box {
