@@ -24,6 +24,14 @@
  	
  }
 
+ .cat {
+ 	-webkit-animation: cat-appear 2s;
+ 	-moz-animation: cat-appear 2s;
+ 	-o-animation: cat-appear 2s;
+ 	-ms-animation: cat-appear 2s;
+ 	animation: cat-appear 2s;
+ }
+
  .quote_box {
  	text-align: left;
  	max-width: 500px;
@@ -78,29 +86,59 @@
  	text-decoration: none;
  }
 
+
  @-webkit-keyframes color-change {
- 	0% { color: white; }
+ 	0% { color: #E6E6E6; }
  	50% { color: gray; }
  	100% { color: black; }
  }
  @-moz-keyframes color-change {
- 	0% { color: white; }
+ 	0% { color: #E6E6E6; }
  	50% { color: gray; }
  	100% { color: black; }
  }
  @-ms-keyframes color-change {
- 	0% { color: white; }
+ 	0% { color: #E6E6E6; }
  	50% { color: gray; }
  	100% { color: black; }
  }
  @-o-keyframes color-change {
- 	0% { color: white; }
+ 	0% { color: #E6E6E6; }
  	50% { color: gray; }
  	100% { color: black; }
  }
  @keyframes color-change {
- 	0% { color: white; }
+ 	0% { color: #E6E6E6; }
  	50% { color: gray; }
  	100% { color: black; }
+ }
+
+
+
+
+ @-webkit-keyframes cat-appear {
+ 	0% { opacity:0.1; }
+ 	50% { opacity:0.5; }
+ 	100% { opacity:1.0; }
+ }
+ @-moz-keyframes cat-appear {
+ 	0% { opacity:0.1; }
+ 	50% { opacity:0.5; }
+ 	100% { opacity:1.0; }
+ }
+ @-ms-keyframes cat-appear {
+ 	0% { opacity:0.1; }
+ 	50% { opacity:0.5; }
+ 	100% { opacity:1.0; }
+ }
+ @-o-keyframes cat-appear {
+ 	0% { opacity:0.1; }
+ 	50% { opacity:0.5; }
+ 	100% { opacity:1.0; }
+ }
+ @keyframes cat-appear {
+ 	0% { opacity:0.1; }
+ 	50% { opacity:0.5; }
+ 	100% { opacity:1.0; }
  }
 

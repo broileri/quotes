@@ -11,8 +11,15 @@ Quote.create citation:"Generally, in battle, use the normal force to engage; use
 Quote.create citation:"If you're incompetent, you can't know you're incompetent. […] the skills you need to produce a right answer are exactly the skills you need to recognize what a right answer is.", author:"David Dunning"
 Quote.create citation:"Even if it seems certain that you will lose, retaliate. Neither wisdom nor technique has a place in this. A real man does not think of victory or defeat. He plunges recklessly towards an irrational death. By doing this, you will awaken from your dreams.", author:"Yamamoto Tsunetomo"
 Quote.create citation:"We often contradict an opinion for no other reason than that we do not like the tone in which it is expressed. ", author:"Friedrich Nietzsche"
+
 Quote.create citation:"I have no knowledge of myself as I am, but merely as I appear to myself.", author:"Immanuel Kant"
 Quote.create citation:"It is not enough to have a good mind. The main thing is to use it well.", author:"René Descartes"
 Quote.create citation:"A fit of laughter, which has been indulged to excess, almost always produces a violent reaction.", author:"Plato"
 Quote.create citation:"He who has overcome his fears will truly be free.", author:"Aristotle"
 Quote.create citation:"Greatness is nothing unless it be lasting.", author:"Napoléon Bonaparte"
+
+Quote.create citation:"What is a man? A miserable little pile of secrets. But enough talk… Have at you!", author:"Dracula, Symphony of the Night"
+Quote.create citation:"Longcat is looooooooong!", author:"Some cat"
+Quote.create citation:"All I do is eat and sleep. Eat and sleep. Eat and sleep. There must be more to a cat's life than that. But I hope not.", author:"Garfield"
+Quote.create citation:"Beyond a certain point there is no return. This point has to be reached.", author:"Franz Kafka"
+Quote.create citation:"There is not love of life without despair about life.", author:"Albert Camus"
