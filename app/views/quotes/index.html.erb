@@ -1,0 +1,21 @@
+<div class="quotinator">
+	<h1>Quotionator</h1>
+</div>
+
+<div class="quote_box">		
+
+	<p>
+		<%= @quote.citation %>
+		<br><br>
+		<em>
+			&emsp;&emsp;- <%= @quote.author %>
+		</em>
+	</p>
+
+	
+</div>
+<br><br>
+<div class="refresh_btn_div">
+	<%= button_to "I need more wisdom.", root_path, :method => :get, class:"refresh_btn" %>
+</div>
+
