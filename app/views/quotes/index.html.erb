@@ -18,11 +18,9 @@
 <div class="refresh_btn_div">
 	<%= button_to "Teach me, master.", root_path, :method => :get, class:"refresh_btn" %>
 </div>
-<div class="cat">
+<div class="cat" id="js_cat">
 	<% if @quote.citation == "Longcat is looooooooong!" %>
-	<div  id="cat_js" >
- 		<img src="long.png" alt="cat">
- 	</div>
+ 		<img src="long.png" alt="loooooong cat">
  	<% end %>
 </div>
 

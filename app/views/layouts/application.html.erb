@@ -7,16 +7,18 @@
 	<%= csrf_meta_tags %>
 
 	<style type="text/css">
-	  #cat_js{visibility: hidden;}
+	  #js_cat{visibility: hidden;}
 	</style>
 
 	<script language="javascript">
-	  function showImages(divId){
+	  function showImage(divId){
 		document.getElementById(divId).style.visibility = "visible";
 	  }
 	</script>
 </head>
-<body class="page_bckground" onload="showImages('cat_js');">
+
+<body class="page_background" onload="showImage('js_cat');">
 	<%= yield %>    
 </body>
+
 </html>
