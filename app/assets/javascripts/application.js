@@ -15,6 +15,4 @@
 //= require turbolinks
 //= require_tree .
 
-$(document).ready(function () {
-    $('#jscat').fadeIn(2000);
-});
+

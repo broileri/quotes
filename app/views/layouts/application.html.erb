@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Quotinator</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
+	<title>Quotinator</title>
+	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+	<%= csrf_meta_tags %>
+
+	<style type="text/css">
+	  #cat_js{visibility: hidden;}
+	</style>
+
+	<script language="javascript">
+	  function showImages(divId){
+		document.getElementById(divId).style.visibility = "visible";
+	  }
+	</script>
 </head>
-<body class="page_bckground">
-  <%= yield %>    
+<body class="page_bckground" onload="showImages('cat_js');">
+	<%= yield %>    
 </body>
 </html>
