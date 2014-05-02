@@ -2,6 +2,6 @@
 
 A web application that shows a random quote every time the page is refreshed.
 
-Database currently has 10 different quotes.
+Database currently has 15 different quotes.
 
 http://quotinator.herokuapp.com/
