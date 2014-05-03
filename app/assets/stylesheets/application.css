@@ -24,14 +24,6 @@
  	
  }
 
- .cat {
- 	-webkit-animation: cat-appear 10s;
- 	-moz-animation: cat-appear 10s;
- 	-o-animation: cat-appear 10s;
- 	-ms-animation: cat-appear 10s;
- 	animation: cat-appear 10s;
- }
-
  .quote_box {
  	text-align: left;
  	max-width: 500px;
@@ -115,33 +107,3 @@
  	50% { color: gray; }
  	100% { color: black; }
  }
-
-
-
-
- @-webkit-keyframes cat-appear {
- 	0% { opacity:0.0; }
- 	50% { opacity:0.5; }
- 	100% { opacity:1.0; }
- }
- @-moz-keyframes cat-appear {
- 	0% { opacity:0.0; }
- 	50% { opacity:0.5; }
- 	100% { opacity:1.0; }
- }
- @-ms-keyframes cat-appear {
- 	0% { opacity:0.0; }
- 	50% { opacity:0.5; }
- 	100% { opacity:1.0; }
- }
- @-o-keyframes cat-appear {
- 	0% { opacity:0.0; }
- 	50% { opacity:0.5; }
- 	100% { opacity:1.0; }
- }
- @keyframes cat-appear {
- 	0% { opacity:0.0; }
- 	50% { opacity:0.5; }
- 	100% { opacity:1.0; }
- }
-
